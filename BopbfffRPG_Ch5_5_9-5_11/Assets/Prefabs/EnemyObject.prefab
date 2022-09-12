@@ -168,7 +168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingHitPoints: 2
   maxHitPoints: 2
-  damageStrength: 1
+  damageStrength: 5
 --- !u!58 &1225629027
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -184,7 +184,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3
+  m_Radius: 100
 --- !u!114 &1225629028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68ee8576852d0d449bf3c1d07101b55a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pursuitSpeed: 1.4
+  pursuitSpeed: 5
   wanderSpeed: 0.8
   directionChangeInterval: 3
   followPlayer: 1
