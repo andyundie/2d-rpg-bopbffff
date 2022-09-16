@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be83b25153ec5e44bea2d49ca7ee277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 20
+  movementSpeed: 3
 --- !u!114 &341052065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,3 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaf2b23747357b4c8b43dea1f54a7fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ammoPrefab: {fileID: 3923436481840934603, guid: 2854e47a1e60b494284ed01d5055fa3c, type: 3}
+  poolSize: 21
+  weaponVelocity: 1
+  animator: {fileID: 0}
