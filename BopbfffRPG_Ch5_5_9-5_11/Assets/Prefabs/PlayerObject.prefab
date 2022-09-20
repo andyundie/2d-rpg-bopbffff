@@ -181,6 +181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingHitPoints: 6
   maxHitPoints: 10
+  characterCatergory: 0
   inventoryPrefab: {fileID: 863995017030828186, guid: 4e3e97cc64e7a454aa9d51310d56b171, type: 3}
   hitPoints: {fileID: 11400000, guid: 33ae210aebb24e74392578cb905c295e, type: 2}
   healthBarPrefab: {fileID: 8060218516011888794, guid: 6a66ca4fd9980934bb84715900c50e83, type: 3}
@@ -197,6 +198,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoPrefab: {fileID: 3923436481840934603, guid: 2854e47a1e60b494284ed01d5055fa3c, type: 3}
-  poolSize: 21
+  poolSize: 25
   weaponVelocity: 1
   animator: {fileID: 0}
